@@ -23,21 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ff57aa-cbd0-46a7-a5c0-db28a939b0fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerficationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/persistence/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/SareetaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/SareetaApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/requests/CreateUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/requests/CreateUserRequest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,10 +70,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/example/demo" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/example/demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SareetaApplication">
     <configuration name="SareetaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.SareetaApplication" />
       <module name="auth-course" />
@@ -92,9 +93,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.create_user_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
+      <option name="METHOD_NAME" value="create_user_happy_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SareetaApplication" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.create_user_happy_path" />
       </list>
     </recent_temporary>
   </component>
@@ -126,21 +160,26 @@
       <screen x="0" y="25" width="1440" height="793" />
     </state>
     <state x="533" y="109" key="#com.intellij.ide.util.MemberChooser/0.25.1440.793@0.25.1440.793" timestamp="1619717414267" />
-    <state width="1398" height="82" key="GridCell.Tab.0.bottom" timestamp="1619719331371">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1619981143596">
       <screen x="0" y="25" width="1440" height="793" />
     </state>
-    <state width="1398" height="82" key="GridCell.Tab.0.bottom/0.25.1440.793@0.25.1440.793" timestamp="1619719331371" />
-    <state width="1398" height="82" key="GridCell.Tab.0.center" timestamp="1619719331370">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.25.1440.793@0.25.1440.793" timestamp="1619981143596" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1619981143595">
       <screen x="0" y="25" width="1440" height="793" />
     </state>
-    <state width="1398" height="82" key="GridCell.Tab.0.center/0.25.1440.793@0.25.1440.793" timestamp="1619719331370" />
-    <state width="1398" height="82" key="GridCell.Tab.0.left" timestamp="1619719331369">
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.25.1440.793@0.25.1440.793" timestamp="1619981143595" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1619981143593">
       <screen x="0" y="25" width="1440" height="793" />
     </state>
-    <state width="1398" height="82" key="GridCell.Tab.0.left/0.25.1440.793@0.25.1440.793" timestamp="1619719331369" />
-    <state width="1398" height="82" key="GridCell.Tab.0.right" timestamp="1619719331371">
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.25.1440.793@0.25.1440.793" timestamp="1619981143593" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1619981143596">
       <screen x="0" y="25" width="1440" height="793" />
     </state>
-    <state width="1398" height="82" key="GridCell.Tab.0.right/0.25.1440.793@0.25.1440.793" timestamp="1619719331371" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.25.1440.793@0.25.1440.793" timestamp="1619981143596" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/auth_course$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1619964894417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
   </component>
 </project>
