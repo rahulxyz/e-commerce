@@ -51,13 +51,13 @@ public class UserController {
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
-		log.info(">>>>Create user with name: ", createUserRequest.getUsername());
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);
 
 		if(createUserRequest.getPassword().length() <7 ||
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
+			log.error("User creation failed: ", user.getUsername());
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(
@@ -65,6 +65,7 @@ public class UserController {
 		);
 
 		userRepository.save(user);
+		log.info("User created successfully: ", user.getUsername());
 		return ResponseEntity.ok(user);
 	}
 	
